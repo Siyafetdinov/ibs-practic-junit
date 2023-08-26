@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
 public class BaseTest {
-    Calculator calculator;
+    protected Calculator calculator;
 
     @BeforeEach
     void setUp() {
